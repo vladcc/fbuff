@@ -1,2 +1,2 @@
 # fbuff
-A file buffer interface.
+A file buffer interface
