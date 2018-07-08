@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1530380904 source:/home/moo/fbuff/fbuff.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fbuff.h"
+
+1530380838 /home/moo/fbuff/fbuff.h
+	<stdio.h>
+
+1530381844 source:/home/moo/fbuff/test.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"fbuff.h"
+	"test.h"
+
+1527939846 /home/moo/fbuff/test.h
+
+1531089483 source:/home/vld/Projects/fbuff/fbuff.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fbuff.h"
+
+1531090599 /home/vld/Projects/fbuff/fbuff.h
+	<stdio.h>
+
+1531089473 source:/home/vld/Projects/fbuff/test.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"fbuff.h"
+	"test.h"
+
+1531083691 /home/vld/Projects/fbuff/test.h
+
