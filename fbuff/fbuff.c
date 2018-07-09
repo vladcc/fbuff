@@ -72,8 +72,6 @@ int fbuff_read(fbuff * fb, int nbytes)
         nbytes = fb->buff_size;
 
     check(NULL == fb || nbytes < 0 || nbytes > fb->buff_size, FBUFF_BAD_ARG);
-    if (0 == nbytes)
-        return 0;
 
     fb->last_read = fread(fb->data, sizeof(*(fb->data)), nbytes, fb->pfile);
 

@@ -149,7 +149,6 @@ bool test_fbuff_read(void)
 
     check(fbuff_read(NULL, 123) == FBUFF_BAD_ARG);
     check(fbuff_read(btest, -123) == FBUFF_BAD_ARG);
-    check(fbuff_read(btest, 0) == 0);
 
     int bsz = 5;
     FILE * tfile = tfopen();
@@ -171,6 +170,12 @@ bool test_fbuff_read(void)
     check(fbuff_read(btest, FBUFF_FILL) == bsz);
     check(memcmp(out, " quic", bsz) == 0);
     check(fbuff_last_read(btest) == bsz);
+    check(fbuff_all_read(btest) == 3+bsz);
+    check(fbuff_state(btest) == 0);
+
+    check(fbuff_read(btest, 0) == 0);
+    check(memcmp(out, " quic", bsz) == 0);
+    check(fbuff_last_read(btest) == 0);
     check(fbuff_all_read(btest) == 3+bsz);
     check(fbuff_state(btest) == 0);
 

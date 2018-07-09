@@ -37,3 +37,22 @@
 
 1531083691 /home/vld/Projects/fbuff/test.h
 
+1531173719 source:/home/vld/GitHub/fbuff/fbuff/test.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	"fbuff.h"
+	"test.h"
+
+1531091154 /home/vld/GitHub/fbuff/fbuff/fbuff.h
+	<stdio.h>
+
+1531091154 /home/vld/GitHub/fbuff/fbuff/test.h
+
+1531173727 source:/home/vld/GitHub/fbuff/fbuff/fbuff.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"fbuff.h"
+
